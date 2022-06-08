@@ -169,8 +169,10 @@ html {scroll-behavior: smooth;}
     margin: 10px;
     display: flex;
 }
+
 .about-1 img{
     width: 40%;
+    height: 40%;
     margin-right: 60px;
     display: inline-block;
 }
@@ -218,10 +220,12 @@ h4 div{
 .about-2-text h4{
     background-color: #a882b9;
     display: inline-block;
+    margin-top: 20px;
 }
 
 .about-2 img{
     width: 40%;
+    height: 40%;
     margin-left: 60px;
     display: inline-block;
 }
@@ -230,6 +234,12 @@ h4 div{
     margin: 40px 0;
     line-height: 30px;
     letter-spacing: 2px;
+}
+
+#examples{
+    background-image: url(../images/dot-background.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 
