@@ -382,6 +382,20 @@ h6{
     font-style: bold;
 }
 
+#advantages{
+    position:relative;
+    padding: 90px 200px;
+}
+
+#advantages h4{
+    background-color: #d25b88;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#advantages h4 div{
+    width: 530px;
+}
 
 
 
