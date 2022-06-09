@@ -300,6 +300,8 @@ h5{
 .quiz-box{
     background-color: #65be9c;
     padding: 80px;
+    display: flex;
+    justify-content: center;
 }
 
 h6{
@@ -310,29 +312,38 @@ h6{
 
 .quiz-contents p{
     color: #fff;
-    font-size: 20px;
-    margin-left: 5px;
-    margin-right: 2px;
-}
-
-.quiz-contents img{
-    width: 9%;
 }
 
 .quiz-a-color{
-    display: flex;
     margin-top: 20px;
+    display: flex;
+}
+
+
+
+.quiz-contents img{
+    width: 8%;
+    margin-left: 3px;
+    margin-right: 5px;
 }
 
 .quiz-b{
-    margin-top: 64px;
+    margin-top: 50px;
 }
 
 .quiz-b-color{
     display: flex;
-    margin-top: 20px;
+    margin-top: 20px
 }
 
+.quiz-answer h6{
+    color: #000;
+}
+
+.open-box{
+    background-color: #fff;
+    padding: 30px;
+}
 
 
 
