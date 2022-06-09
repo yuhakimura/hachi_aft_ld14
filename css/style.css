@@ -285,7 +285,7 @@ h5{
     font-weight: bold;
     font-size: 52px;
     color: #fff;
-    border-radius: 50%;
+    border-radius: 2.5em;
     background-color: #000;
     padding: 10px 15px;
 }
@@ -303,13 +303,16 @@ h5{
     padding-left: 80px;
     padding-right: 80px;
     display: flex;
-    justify-content: space-around;
 }
 
 h6{
     font-weight: bold;
     color: #fff;
     font-size: 24px;
+}
+
+.quiz-contents{
+    width: 50%;
 }
 
 .quiz-contents p{
@@ -324,9 +327,13 @@ h6{
 
 
 .quiz-contents img{
-    width: 8%;
+    width: 60px;
     margin-left: 3px;
     margin-right: 5px;
+}
+
+.color{
+    display: flex;
 }
 
 .quiz-b{
@@ -338,23 +345,51 @@ h6{
     margin-top: 20px
 }
 
+.quiz-answer{
+    width: 50%;
+    text-align: center;
+}
+
 .quiz-answer h6{
     color: #000;
+    text-align: left;
 }
 
 .quiz-answer p{
     margin-top: 20px;
     letter-spacing: 2px;
+    line-height: 30px;
+    text-align: left;
 }
 
 .open-box{
     background-color: #fff;
-    padding: 30px;
+    padding: 40px;
 }
 
 .answer-b h6{
     margin-top: 50px;
 }
+
+.answer-button{
+    background-color:#000;
+    text-align: center;
+    border-radius: 2.5em;
+    color: #fff;
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px 40px;
+    font-style: bold;
+}
+
+
+
+
+
+
+
+
+
 
 
 footer{
