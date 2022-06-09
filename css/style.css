@@ -262,7 +262,6 @@ h4 div{
     align-items: center;
     color: #fff;
     -webkit-text-stroke: 2px #000;
-    text-stroke: 2px #000;
     font-family: ronde-b, sans-serif;
     font-weight: 400;
     font-size: 42px;
@@ -299,9 +298,12 @@ h5{
 
 .quiz-box{
     background-color: #65be9c;
-    padding: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 h6{
@@ -340,12 +342,19 @@ h6{
     color: #000;
 }
 
+.quiz-answer p{
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
 .open-box{
     background-color: #fff;
     padding: 30px;
 }
 
-
+.answer-b h6{
+    margin-top: 50px;
+}
 
 
 footer{
