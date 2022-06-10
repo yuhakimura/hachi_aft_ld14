@@ -398,6 +398,36 @@ h6{
     width: 530px;
 }
 
+.advantages-box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-box img{
+    width: 300px;
+}
+
+.adv-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px
+}
+
+.adv-text p{
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ede549;
+    margin-right: 20px;
+}
+
 #voices{
     position: relative;
     padding: 90px 200px;
@@ -407,6 +437,10 @@ h6{
     background-attachment: fixed;
 }
 
+#howto{
+    position: relative;
+    padding: 90px 200px;
+}
 
 
 
