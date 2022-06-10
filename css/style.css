@@ -255,6 +255,7 @@ h4 div{
     background-size: cover;
     padding: 90px 200px;
     position: relative;
+    background-attachment: fixed;
 }
 
 .head-border{
@@ -395,6 +396,15 @@ h6{
 
 #advantages h4 div{
     width: 530px;
+}
+
+#voices{
+    position: relative;
+    padding: 90px 200px;
+    background-image: url(../images/dot-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
