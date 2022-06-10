@@ -6,6 +6,12 @@
 
 html {scroll-behavior: smooth;}
 
+p{
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
 .firstview{
     width: 100vw;
     height: 100vh;
@@ -205,7 +211,6 @@ h4 div{
 
 .about-1-text p{
     margin: 40px 0;
-    line-height: 30px;
     letter-spacing: 2px;
 }
 
@@ -232,7 +237,6 @@ h4 div{
 
 .about-2-text p{
     margin: 40px 0;
-    line-height: 30px;
     letter-spacing: 2px;
 }
 
@@ -359,7 +363,6 @@ h6{
 .quiz-answer p{
     margin-top: 20px;
     letter-spacing: 2px;
-    line-height: 30px;
     text-align: left;
 }
 
@@ -414,9 +417,10 @@ h6{
 
 .cir1{
     position: absolute;
-    top: 500px;
-    left: 770px;
+    top: 540px;
+    left: 800px;
     width: 120px;
+    z-index: 50;
 }
 
 .advantages-box{
@@ -452,12 +456,17 @@ h6{
 .more{
     text-align: center;
     margin-top: 70px;
+    z-index: 100;
+}
+
+.more p{
     color: #fff;
     -webkit-text-stroke: 2px #000;
     font-family: ronde-b, sans-serif;
-    font-weight: 400;
-    font-size: 42px;
+    font-size: 52px;
+    line-height: normal;
     font-style: italic;
+    font-weight: 400;
 }
 
 #voices{
@@ -468,6 +477,21 @@ h6{
     background-size: cover;
     background-attachment: fixed;
 }
+
+.voice-contents h4{
+    background-color:#96d3da;
+    display: inline-block;
+}
+
+.voice-contents{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.voice-contents img{
+}
+
 
 #howto{
     position: relative;
