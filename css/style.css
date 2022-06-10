@@ -398,8 +398,29 @@ h6{
     width: 530px;
 }
 
+.tri1{
+    position: absolute;
+    top: 30px;
+    left: 650px;
+    width: 120px;
+}
+
+.tri2{
+    position: absolute;
+    top: 160px;
+    left: 90px;
+    width: 140px
+}
+
+.cir1{
+    position: absolute;
+    top: 500px;
+    left: 770px;
+    width: 120px;
+}
+
 .advantages-box{
-    margin-top: 50px;
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
 }
@@ -426,6 +447,17 @@ h6{
     border-radius: 50%;
     background-color: #ede549;
     margin-right: 20px;
+}
+
+.more{
+    text-align: center;
+    margin-top: 70px;
+    color: #fff;
+    -webkit-text-stroke: 2px #000;
+    font-family: ronde-b, sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    font-style: italic;
 }
 
 #voices{
