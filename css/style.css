@@ -506,6 +506,8 @@ h6{
 
 .jukenstep li{
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
 }
 
 .jukenstep h5{
@@ -516,7 +518,7 @@ h6{
     color: #fff;
     text-align: center;
     background-color: #a882b9;
-    border-radius: 5px 5px 0 0;
+    border-radius:0;
     text-align: center;
     position: relative;
     font-family: ronde-b, sans-serif;
@@ -535,9 +537,69 @@ h6{
     position: absolute;
     bottom: -20px;
     left: 0;
-    
 }
 
+.step-contents{
+    padding: 0 0 0 30px;
+}
+
+.step-contents p{
+    margin: 40px 0;
+}
+.step-title{
+    font-family: ronde-b, sans-serif;
+    line-height: normal;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #000;
+    padding: 0 0 5px;
+    margin: 0 0 15px;
+    font-size: 1.8rem;
+    border-bottom: 4px solid #f5f5f5;
+    position: relative;
+}
+
+.step-title::after{
+    background-color:#d25b88;
+    content: '';
+    width: 30%;
+    height: 4px;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+}
+
+.step-button{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.step-button a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #d25b88;
+    padding:20px 50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-right: 40px;
+    width: 40%;
+
+}
+
+.step-button .text{
+    display: inline-block;
+    background-color: #96d3da;
+}
+
+.step-button .amazon{
+    display:inline-block;
+    background-color: #ede549;
+}
 
 
 
@@ -551,6 +613,7 @@ footer{
     background-color :#f5f5f5;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 footer p{

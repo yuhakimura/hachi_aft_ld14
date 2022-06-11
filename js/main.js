@@ -20,7 +20,7 @@ $(function($){
         } else{
             $('.open-box').slideUp();
             $(this).text('+ 正解');
-            $(this).css('background-color', '#000000');
+            $(this).css('background-color', '#000');
 			$(this).css('color','#fff')
         }
     });
