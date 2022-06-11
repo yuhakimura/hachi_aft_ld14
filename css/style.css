@@ -426,7 +426,6 @@ h6{
     top: 540px;
     left: 800px;
     width: 120px;
-    z-index: 50;
 }
 
 .advantages-box{
@@ -473,6 +472,8 @@ h6{
     line-height: normal;
     font-style: italic;
     font-weight: 400;
+    position: relative;
+    z-index: 2;
 }
 
 #voices{
