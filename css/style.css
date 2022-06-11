@@ -19,11 +19,16 @@ p{
     background-position: center;
     background-size: cover;
     padding:180px;
+    position: relative;
 }
 
-.firstview img{
+.headtitle-pc{
     width: 60%;
     margin-top:80px;
+}
+
+.headtitle-sp{
+    display: none;
 }
 
 .subtitle{
@@ -58,8 +63,8 @@ p{
     left: 50%;
     z-index: 2;
     display: inline-block;
-    -webkit-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
     text-decoration: none;
     padding-top: 60px;
     font-family: ronde-b, sans-serif;
@@ -163,7 +168,7 @@ p{
 h2{
     position: absolute;
     top:-110px;
-    left:0;
+    left:-15px;
     transform-origin: bottom left;
     transform: rotate(90deg);
     font-family: ronde-b, sans-serif;
@@ -285,6 +290,7 @@ h4 div{
 .quiz-text{
     margin: 50px 0;
     display: flex;
+    align-items: center;
 }
 
 h5{
@@ -428,6 +434,7 @@ h6{
     width: 120px;
 }
 
+
 .advantages-box{
     margin-top: 60px;
     display: flex;
@@ -442,12 +449,24 @@ h6{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:30px
+    margin-top:30px;
 }
 
 .adv-text p{
     letter-spacing: 2px;
     font-weight: bold;
+}
+
+.adv-1{
+    width:30%;
+}
+
+.adv-2{
+    width:30%;
+}
+
+.adv-3{
+    width: 30%;
 }
 
 .circle{
@@ -652,13 +671,6 @@ h6{
     background-color: #ede549;
 }
 
-
-
-
-
-
-
-
 footer{
     padding:30px 0;
     background-color :#f5f5f5;
@@ -676,4 +688,208 @@ footer p{
     font-family: ronde-b, sans-serif;
     font-weight: 400;
     font-style: italic;
+}
+
+/*ここまで全てに共通のスタイル*/
+
+/*ここからスマホ用のスタイル*/
+
+
+@media all and (max-width:480px){
+    .firstview{
+        background-attachment: scroll;
+        padding:400px 30px;
+    }
+
+    .fv-contents{
+        margin:auto 0;
+    }
+
+    .firstview h1{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .headtitle-pc{
+        display: none;
+    }
+
+    .headtitle-sp{
+        display:block;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .subtitle{
+        width: 250px;
+        text-align: center;
+        margin: 10px auto;
+    }
+    
+    .subtitle h1{
+        font-size: 1rem;
+    }
+    
+    .subtitle h1 div{
+        width: 200px;
+    }
+
+    .inner{
+        display: none;
+    }
+
+    h2{
+        font-size: 4rem;
+        top: -60px;
+        left: -8px;
+    }
+
+    #about{
+        padding: 70px 45px;
+    }
+
+    #about img{
+        width: 230px;
+        margin: 0 auto;
+    }
+
+    .about-1{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h4{
+        font-size: 1.1rem;
+    }
+
+    .about-1-text{
+        text-align: center;
+    }
+
+    .about-1-text h4{
+        width: 260px;
+    }
+
+    .about-1-text h4 div{
+        width: 230px;
+    }
+
+    .about-2-text{
+        text-align: center;
+    }
+
+    #about p{
+        font-size: 0.7rem;
+        line-height: 24px;
+        margin-top: 24px;
+        text-align: left;
+    }
+
+    .about-2{
+        flex-direction: column-reverse;
+    }
+
+    .about-2-text h4{
+        width: 260px;
+    }
+
+    .about-2-text h4 div{
+        width: 230px;
+    }
+
+    #examples{
+        padding: 90px 60px;
+    }
+
+    .head-border{
+        font-size: 1.3rem;
+        -webkit-text-stroke: 1px #000;
+    }
+
+    .quiz-text{
+        margin:20px 0;
+    }
+
+    .quiz-text h5{
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .quiz-text p{
+        font-size: 0.7rem;
+        line-height: 23px;
+    }
+
+    .quiz-box{
+        margin-top: 0px;
+        padding:20px;
+        flex-direction: column;
+    }
+
+    #advantages{
+        padding: 70px 50px;
+        text-align: center;
+    }
+
+    #advantages h4{
+        width:260px;
+    }
+
+    #advantages h4 div{
+        width: 240px;
+    }
+
+    .advantages-box{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .advantages-box img{
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .adv-1 .adv-2 .adv-3{
+        width:100%;
+    }
+
+    #voices{
+        padding: 70px 50px;
+        text-align: center;
+    }
+
+    #voices h4{
+        width:280px;
+    }
+
+    .voice-head-1{
+        margin-top: 10px;
+    }
+
+    .voice-head-2{
+        margin-top:0;
+    }
+
+    .voice-head-2 h4{
+        width: 260px;
+    }
+
+    #voices h4 div{
+        width: 270px;
+    }
+
+    #voices img{
+        position: relative;
+        width: 300px;
+        margin: 0 auto;
+        left: 0;
+    }
+
+    #voices p{
+        font-size: 0.7rem;
+        display: inline;
+    }
+
 }
