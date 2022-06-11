@@ -242,7 +242,7 @@ h4 div{
 }
 
 .button{
-    width: 13%;
+    width: 10%;
     position: fixed;
     right: 50px;
     bottom: 50px;
@@ -482,15 +482,20 @@ h6{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    text-align: right;
 }
 
 
 
 .voice-contents{
     margin-top: 60px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    position: relative;
+}
+
+.voice-contents img{
+    position: absolute;
+    width: 600px;
+    left:-120px;
 }
 
 .voice-contents h4{
@@ -499,7 +504,16 @@ h6{
     margin-bottom: 20px;
 }
 
-.voice-contents img{
+.voice-head-2 div{
+    width: 600px;
+}
+
+.voice-text p{
+    display: inline-block;
+    width: 600px;
+    text-align: left;
+    position: relative;
+    z-index: 2;
 }
 
 
