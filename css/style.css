@@ -388,6 +388,10 @@ h6{
     font-style: bold;
 }
 
+.answer-button:hover{
+    cursor: pointer;
+}
+
 #advantages{
     position:relative;
     padding: 90px 200px;
@@ -604,6 +608,7 @@ h6{
 
 .step2-box p{
     margin: 0px;
+    font-size: 14px;
 }
 
 .step2-box .step2-icon{
@@ -611,7 +616,12 @@ h6{
     top:-20px;
     left:-10px;
     color: #fff;
-    background-color:#96d3da
+    background-color:#96d3da;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    text-align: center;
+    line-height: 70px;
 }
 
 .step-button .text{
