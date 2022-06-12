@@ -500,8 +500,6 @@ h6{
     text-align: right;
 }
 
-
-
 .voice-contents{
     margin-top: 60px;
     position: relative;
@@ -531,6 +529,9 @@ h6{
     z-index: 2;
 }
 
+.voice-paragraph{
+    display: none;
+}
 
 #howto{
     position: relative;
@@ -580,6 +581,7 @@ h6{
 .step-contents p{
     margin: 40px 0;
 }
+
 .step-title{
     font-family: ronde-b, sans-serif;
     line-height: normal;
@@ -764,7 +766,7 @@ footer p{
     }
 
     #about{
-        padding: 70px 45px;
+        padding: 70px 45px 0 45px;
     }
 
     #about img{
@@ -1019,6 +1021,43 @@ footer p{
     #voices p{
         font-size: 0.7rem;
         display: inline;
+    }
+
+
+    .voice-text-pc{
+        display: none;
+    }
+
+    .voice-paragraph{
+        display: block;
+        background-color: #96d3da;
+    }
+
+    .open-box-2 p{
+        padding:20px 50px;
+    }
+
+    .voice-text p{
+        width: 60px;
+    }
+
+   
+
+    .more-button{
+        padding: 3px 20px;
+        font-size: 1rem;
+        background-color:#fff;
+        text-align: center;
+        border-radius: 2.5em;
+        color: #000;
+        display: block !important;
+        font-style: bold;
+        border:solid 1px #000;
+        width: 100px;
+    }
+
+    .voice-text .more-button p{
+        width: 60px;
     }
 
     #howto{
