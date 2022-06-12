@@ -717,7 +717,7 @@ footer p{
 @media all and (max-width:480px){
     .firstview{
         background-attachment: scroll;
-        padding:400px 30px;
+        padding:300px 30px;
     }
 
     .fv-contents{
@@ -762,6 +762,10 @@ footer p{
         font-size: 4rem;
         top: -60px;
         left: -8px;
+    }
+
+    .firstview a {
+        bottom: 120px;
     }
 
     #about{
