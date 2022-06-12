@@ -460,16 +460,8 @@ h6{
     font-weight: bold;
 }
 
-.adv-1{
-    width:30%;
-}
-
-.adv-2{
-    width:30%;
-}
-
-.adv-3{
-    width: 30%;
+.adv-1 .adv-2 .adv-3{
+     width: 30%;
 }
 
 .circle{
@@ -924,12 +916,44 @@ footer p{
     }
 
     .tri2{
-
+        top:700px;
+        left: 230px;
+        width: 100px;
+        transform: rotate(-15deg);
     }
 
     .cir1{
-        left:30px;
+        left:10px;
+        width: 100px;
+        top: 550px;
     }
+
+    .adv-1 .adv-2 .adv-3{
+        width:100%;
+    }
+
+    .adv-text{
+        margin-top: 0;
+    }
+
+    .advantages-box{
+        margin-top:20px;
+    }
+
+    .advantages-box img{
+        margin-top: 50px;
+    }
+
+    .advantages-box p{
+        font-size: 0.7rem;
+    }
+
+    .more p{
+        font-size: 30px;
+        -webkit-text-stroke: 1px #000;
+    }
+
+
 
     #voices{
         padding: 70px 0;
