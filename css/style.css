@@ -253,7 +253,7 @@ h4 div{
     right: 50px;
     bottom: 50px;
     transition: 0.5s;
-    z-index: 2;
+    z-index: 10;
 }
 
 .button:hover{
