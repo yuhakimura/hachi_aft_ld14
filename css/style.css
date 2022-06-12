@@ -347,6 +347,8 @@ h6{
 
 .color{
     display: flex;
+    align-items:flex-start;
+    width: 20%;
 }
 
 .quiz-b{
@@ -799,6 +801,12 @@ footer p{
         width: 230px;
     }
 
+    .button{
+        width: 80px;
+        bottom:20px;
+        right:20px;
+    }
+
     #examples{
         padding: 90px 60px;
     }
@@ -826,6 +834,59 @@ footer p{
         margin-top: 0px;
         padding:20px;
         flex-direction: column;
+        justify-content: center;
+    }
+
+    .quiz-contents{
+        width: 100%;
+    }
+
+    .quiz-contents h6{
+        font-size: 1rem;
+    }
+
+    .quiz-contents img{
+        width:35px;
+    }
+
+    .quiz-a-color{
+        width: auto;
+    }
+
+    .color{
+        align-items: flex-start;
+        width: auto;
+    }
+
+    .color p{
+        font-size: 0.7rem;
+    }
+
+    .answer-button{
+        padding: 1px 30px;
+        font-size: 1rem;
+    }
+
+    .quiz-answer{
+        width: 100%;
+    }
+
+    .open-box{
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .open-box h6{
+        font-size: 1rem;
+    }
+
+    .open-box p{
+        font-size: 0.7rem;
+        line-height: 20px;
+    }
+
+    .answer-b h6{
+        margin-top:30px;
     }
 
     #advantages{
@@ -856,13 +917,33 @@ footer p{
         width:100%;
     }
 
+    .tri1{
+        top:20px;
+        width: 80px;
+        left:280px;
+    }
+
+    .tri2{
+
+    }
+
+    .cir1{
+        left:30px;
+    }
+
     #voices{
-        padding: 70px 50px;
+        padding: 70px 0;
         text-align: center;
+    }
+
+    #voices h3{
+        padding:0 50px;
     }
 
     #voices h4{
         width:280px;
+        margin-top:10px;
+        margin-bottom: 0;
     }
 
     .voice-head-1{
@@ -891,6 +972,10 @@ footer p{
     #voices p{
         font-size: 0.7rem;
         display: inline;
+    }
+
+    #howto{
+        padding:70px 50px;
     }
 
 }
