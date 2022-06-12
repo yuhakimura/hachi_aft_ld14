@@ -636,6 +636,7 @@ h6{
     background-color: #f5f5f5;
     position: relative;
     padding: 50px 20px 20px;
+    width: 30%;
 }
 
 .step2-box p{
@@ -656,7 +657,7 @@ h6{
     line-height: 70px;
 }
 
-.step-button .text{
+.step-button .textbook{
     display: inline-block;
     background-color: #96d3da;
 }
@@ -664,6 +665,28 @@ h6{
 .step-button .amazon{
     display:inline-block;
     background-color: #ede549;
+}
+
+.last{
+    text-align: center;
+}
+
+.wish{
+    font-size: 2rem;
+    font-family: ronde-b, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+    -webkit-text-stroke: 2px #000;
+    letter-spacing: 2px;
+}
+
+.wish-j{
+    font-size: 1rem;
+    font-family: ronde-b, sans-serif;
+    font-weight:400;
+    font-style:italic;
+    
 }
 
 footer{
@@ -1000,6 +1023,108 @@ footer p{
 
     #howto{
         padding:70px 50px;
+    }
+
+    .jukenstep li{
+        margin-bottom: 40px;
+    }
+
+    .jukenstep h5{
+        width: 40px;
+        padding: 10px 5px 5px;
+        font-size: 0.7rem;
+        min-width: 40px;
+    }
+    
+    .jukenstep h5::after {
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 15px solid #a882b9;
+        bottom: -15px;
+    }
+
+    .step-contents{
+        padding-left: 20px;
+    }
+
+    .step-contents p{
+        margin:0;
+    }
+
+    .step-title{
+        font-size: 1rem;
+        letter-spacing: 0;
+    }
+
+    .step1-body{
+        font-size: 0.7rem;
+        margin-bottom: 0px;
+        letter-spacing: normal;
+        line-height: 30px;
+    }
+
+    .step-button{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step-button a{
+        padding:15px 20px;
+        margin-right: 0px;
+        width: 90%;
+        font-size: 0.7rem;
+    }
+
+    .step2-boxes{
+        flex-direction: column;
+        margin-top:30px;
+    }
+
+    .step2-box{
+        margin-top:10px;
+        width: 100%;
+        margin-bottom:20px;
+        padding: 50px 20px 20px 20px;
+    }
+
+    .step2-box .step2-icon{
+        width: 60px;
+        height:60px;
+        line-height: 60px;
+        border-radius: 30px;
+        left:-15px;
+    }
+
+    .step2-body{
+        margin-bottom:0;
+        font-size: 0.7rem;
+        letter-spacing: normal;
+        line-height: 30px;
+    }
+
+    .step3-body{
+        font-size: 0.7rem;
+        letter-spacing: normal;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+
+    .amazon{
+        margin-top: 10px;
+    }
+
+    .wish{
+        font-size: 1.3rem;
+        -webkit-text-stroke: 1px #000;
+    }
+
+    .wish-j{
+        font-size: 0.7rem;
+    }
+
+
+    footer{
+        padding: 10px 0;
     }
 
 }
