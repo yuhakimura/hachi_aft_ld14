@@ -41,7 +41,6 @@ p{
 
 .subtitle h1{
     font-family: ronde-b, sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 52px;
     color: #fff;
@@ -394,7 +393,7 @@ h6{
     display: inline-block;
     font-size: 18px;
     padding: 6px 50px;
-    font-style: bold;
+    font-weight: bold;
 }
 
 .answer-button:hover{
@@ -807,6 +806,7 @@ footer p{
         line-height: 24px;
         margin-top: 24px;
         text-align: left;
+        letter-spacing: normal;
     }
 
     .about-2{
@@ -848,6 +848,7 @@ footer p{
     .quiz-text p{
         font-size: 0.7rem;
         line-height: 23px;
+        letter-spacing: normal;
     }
 
     .quiz-box{
@@ -937,6 +938,10 @@ footer p{
         width:100%;
     }
 
+    .adv-text p{
+        letter-spacing: normal;
+    }
+
     .tri1{
         top:20px;
         width: 80px;
@@ -1021,14 +1026,6 @@ footer p{
         left: 0;
     }
 
-    .open-box-text{
-        font-size: 0.7rem;
-        display: inline-block;
-        text-align: left;
-        line-height: 30px;
-        display:none;
-    }
-
     .voice-text-pc{
         display: none;
     }
@@ -1041,6 +1038,14 @@ footer p{
         text-align: center;
     }
 
+    .open-box-text{
+        font-size: 0.7rem;
+        display: inline-block;
+        text-align: left;
+        line-height: 30px;
+        letter-spacing: normal;
+    }
+
     .more-button{
         padding: 1px 20px;
         font-size: 0.8rem;
@@ -1048,7 +1053,7 @@ footer p{
         text-align: center;
         border-radius: 2.5em;
         color: #000;
-        font-style: bold;
+        font-weight: bold;
         border:solid 1px #000;
         width: 160px;
         margin: 0 auto;
