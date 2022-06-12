@@ -521,7 +521,7 @@ h6{
     width: 600px;
 }
 
-.voice-text p{
+.voice-text-pc{
     display: inline-block;
     width: 600px;
     text-align: left;
@@ -643,7 +643,6 @@ h6{
 
 .step2-box p{
     margin: 0px;
-    font-size: 14px;
 }
 
 .step2-box .step2-icon{
@@ -1018,11 +1017,13 @@ footer p{
         left: 0;
     }
 
-    #voices p{
+    .open-box-text{
         font-size: 0.7rem;
-        display: inline;
+        display: inline-block;
+        text-align: left;
+        line-height: 30px;
+        display:none;
     }
-
 
     .voice-text-pc{
         display: none;
@@ -1031,33 +1032,22 @@ footer p{
     .voice-paragraph{
         display: block;
         background-color: #96d3da;
+        padding:30px 50px;
+        margin-top: 30px;
+        text-align: center;
     }
-
-    .open-box-2 p{
-        padding:20px 50px;
-    }
-
-    .voice-text p{
-        width: 60px;
-    }
-
-   
 
     .more-button{
-        padding: 3px 20px;
-        font-size: 1rem;
+        padding: 1px 20px;
+        font-size: 0.8rem;
         background-color:#fff;
         text-align: center;
         border-radius: 2.5em;
         color: #000;
-        display: block !important;
         font-style: bold;
         border:solid 1px #000;
-        width: 100px;
-    }
-
-    .voice-text .more-button p{
-        width: 60px;
+        width: 160px;
+        margin: 0 auto;
     }
 
     #howto{

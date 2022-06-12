@@ -24,5 +24,15 @@ $(function($){
 			$(this).css('color','#fff')
         }
     });
+
+	$('.more-button').on('click',function(){
+        if ($('.open-box-text').is(':hidden')){
+            $('.open-box-text').slideDown();
+            $(this).html('&minus; CLOSE')
+        } else{
+            $('.open-box-text').slideUp();
+            $(this).html('&plus; MORE')
+        }
+    });
 })
 
