@@ -5,7 +5,139 @@
     font-family: sans-serif;
 }
 
+ul,li{
+    list-style:none;
+}
+
 html {scroll-behavior: smooth;}
+
+.container{
+    display: none;
+}
+
+.header{
+    background-color:rgba(0,0,0,0.4);
+    width: 100%;
+    height: 50px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:999;
+    text-align: right;
+}
+
+.header-inner{
+    padding: 0 20px;
+    text-align: right;
+    height: inherit;
+    position: relative;
+    width:100%;
+}
+
+.header-nav{
+    position:absolute;
+    right: 0;
+    left:0 ;
+    top: 0;
+    width: 100%;
+    height: 70vh;
+    transform: translateX(100%);
+    background-color:rgba(0,0,0,0.4);
+    transition: ease .4s;
+}
+
+.nav-items{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:0;
+}
+
+.nav-item a{
+    color: #000;
+    width: 100%;
+    display:block;
+    text-align: left;
+    font-size: 30px;
+    margin-bottom:24px;
+    text-decoration: none;
+    font-family: ronde-b, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding:5px 0;
+}
+
+.nav-item:last-child a {
+    margin-bottom:0;
+}
+
+.nav-official-button{
+    display: inline-block;
+    position: absolute;
+    top: 80%;
+    padding: 12px 20px;
+    background-color: #d25b88;
+    color: #fff;
+    left:50%;
+    transform:translateX(-50%);
+    text-decoration: none;
+    font-family: ronde-b, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.header-hamburger{
+    width: 36px;
+    height: 100%;
+}
+
+.hamburger{
+    background-color:transparent;
+    border-color:transparent;
+    z-index:9999;
+}
+
+.hamburger span{
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    position:relative;
+    transition: ease .4s;
+    display: block;
+}
+
+.hamburger span:nth-child(1){
+    top:0;
+}
+
+.hamburger span:nth-child(2){
+    margin:8px 0;
+}
+
+.hamburger span:nth-dhild(3){
+    top:0;
+}
+
+.header-nav.active{
+    transform: translateX(0);
+}
+
+.hamburger.active span:nth-child(1){
+    top:5px;
+    transform: rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2){
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3){
+    top:-13px;
+    transform: rotate(-45deg);
+}
 
 p{
     font-weight: bold;
@@ -714,6 +846,10 @@ footer p{
 
 
 @media all and (max-width:480px){
+
+    .container{
+        display: block;
+    }
     .firstview{
         background-attachment: scroll;
         padding:300px 30px;

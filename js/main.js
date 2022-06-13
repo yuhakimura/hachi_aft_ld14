@@ -1,4 +1,11 @@
 $(function($){
+    const ham = $('#js-hamburger');
+    const nav = $('#js-nav');
+    ham.on('click', function (){
+        ham.toggleClass('active');
+        nav.toggleClass('active');
+    })
+
 	var navPos = jQuery( '#global-nav' ).offset().top; // グローバルメニューの位置
 	var navHeight = jQuery( '#global-nav' ).outerHeight(); // グローバルメニューの高さ
 	jQuery( window ).on( 'scroll', function() {
