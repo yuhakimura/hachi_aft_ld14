@@ -435,7 +435,6 @@ h5{
 }
 
 .quiz-text p{
-    margin-top:30px;
     margin-left: 24px;
     letter-spacing: 2px;
 }
@@ -584,7 +583,7 @@ h6{
 
 .katakata{
     animation: katakata 6s infinite ease-in-out;
-    z-index: 0;
+    z-index: 10;
 }
 
 @keyframes katakata{
@@ -642,7 +641,7 @@ h6{
     font-style: italic;
     font-weight: 400;
     position: relative;
-    z-index: 2;
+    z-index: 20;
 }
 
 #voices{
@@ -1163,6 +1162,10 @@ footer p{
 
     .advantages-box p{
         font-size: 0.7rem;
+    }
+
+    .more{
+        margin-top:30px;
     }
 
     .more p{
