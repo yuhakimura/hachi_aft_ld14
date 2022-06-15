@@ -295,6 +295,7 @@ p{
 #about {
     padding: 90px 200px;
     position: relative;
+    background-color:#fff;
 }
 
 h2{
@@ -392,12 +393,23 @@ h4 div{
 }
 
 #examples{
-    background-image: url(../images/dot-background.jpg);
-    background-position: center;
-    background-size: cover;
     padding: 90px 200px;
     position: relative;
     background-attachment: fixed;
+}
+
+#examples::before{
+    background-image:url(../images/dot-background.jpg);
+    background-image:no-repeat;
+    background-image:center;
+    background-size:cover;
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100%;
+    height:100vh;
 }
 
 .head-border{
@@ -534,6 +546,7 @@ h6{
 #advantages{
     position:relative;
     padding: 90px 200px;
+    background-color: #fff;
 }
 
 #advantages h4{
@@ -647,11 +660,21 @@ h6{
 #voices{
     position: relative;
     padding: 90px 200px;
-    background-image: url(../images/dot-background.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
     text-align: right;
+}
+
+#voices::before{
+    background-image:url(../images/dot-background.jpg);
+    background-image:no-repeat;
+    background-image:center;
+    background-size:cover;
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: -1;
+    width:100%;
+    height:100vh;
 }
 
 .voice-contents{
@@ -690,6 +713,7 @@ h6{
 #howto{
     position: relative;
     padding: 90px 200px;
+    background-color: #fff;
 }
 
 .jukenstep li{
